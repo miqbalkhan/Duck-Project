@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="11.404377">
+<testcase classname="Verify Google serch component" name="Successfully serch for duck in google" time="11.404377">
+<system-out><![CDATA[Given user go to the google home page.......................................passed
+When user verify the title of the page as "Google"..........................passed
+Then user type "ducks" in the serch box.....................................passed
+And user verify that ducks were properly searched for.......................passed
+And user close the browser..................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

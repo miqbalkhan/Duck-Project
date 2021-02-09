@@ -1,0 +1,100 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Successfully serch for duck in google",
+        "description": "",
+        "id": "verify-google-serch-component;successfully-serch-for-duck-in-google",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7184346700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user go to the google home page",
+            "match": {
+              "location": "duckStepdefination.user_go_to_the_google_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 32719200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user verify the title of the page as \"Google\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Google",
+                  "offset": 38
+                }
+              ],
+              "location": "duckStepdefination.user_verify_the_title_of_the_page_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2671750300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user type \"ducks\" in the serch box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ducks",
+                  "offset": 11
+                }
+              ],
+              "location": "duckStepdefination.user_type_in_the_serch_box(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 46600900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user verify that ducks were properly searched for",
+            "match": {
+              "location": "duckStepdefination.user_verify_that_ducks_were_properly_searched_for()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1468960300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user close the browser.",
+            "match": {
+              "location": "duckStepdefination.user_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Verify Google serch component",
+    "description": "",
+    "id": "verify-google-serch-component",
+    "keyword": "Feature",
+    "uri": "Google for ducks.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@smookTest"
+      }
+    ]
+  }
+]

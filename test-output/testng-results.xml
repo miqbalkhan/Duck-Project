@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1800" started-at="2021-02-09T20:18:44Z" finished-at="2021-02-09T20:18:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1800" started-at="2021-02-09T20:18:44Z" finished-at="2021-02-09T20:18:46Z">
+      <class name="com.test.api.GetJsonPlaceholde">
+        <test-method status="PASS" signature="testResponsecode()[pri:0, instance:com.test.api.GetJsonPlaceholde@340f438e]" name="testResponsecode" duration-ms="1772" started-at="2021-02-09T15:18:44Z" finished-at="2021-02-09T15:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponsecode -->
+      </class> <!-- com.test.api.GetJsonPlaceholde -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
